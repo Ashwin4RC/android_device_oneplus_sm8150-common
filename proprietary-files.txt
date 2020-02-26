@@ -376,6 +376,20 @@ vendor/lib64/libtriplecam_video_optical_zoom.so
 vendor/lib64/libvidhance.so
 vendor/lib64/libvl53l1_daemon.so
 vendor/lib64/sensors.hal.tof.so
+vendor/lib/vendor.oneplus.hardware.translation@1.0.so
+vendor/lib64/vendor.oneplus.hardware.translation@1.0.so
+lib/vendor.oneplus.hardware.translation@1.0.so
+lib64/vendor.oneplus.hardware.translation@1.0.so
+vendor/bin/hw/vendor.oneplus.hardware.translation@1.0-service
+vendor/etc/init/vendor.oneplus.hardware.translation@1.0-service.rc
+framework/vendor.oneplus.camera.CameraMDMHIDL-V1.0-java.jar
+lib/vendor.oneplus.camera.CameraMDMHIDL@1.0-adapter-helper.so
+lib/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
+lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0-adapter-helper.so
+lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
+vendor/lib/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
+vendor/lib64/vendor.oneplus.camera.CameraMDMHIDL@1.0.so
+lib64/libCameraMDMHelper.so
 
 # Camera firmware
 vendor/firmware/CAMERA_ICP.elf
