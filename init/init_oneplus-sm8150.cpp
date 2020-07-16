@@ -61,6 +61,13 @@ void load_6gb()
     property_override("dalvik.vm.heapmaxfree","32m");
 }
 
+void override_sn_props()
+{
+    property_override("ro.boot.enable_dm_verity","");
+    property_override("ro.boot.secboot","");
+    property_override("ro.boot.verifiedbootstate","");
+}
+
 /* Get Ram size for different variants */
 void checkram_loadprops()
 {
@@ -80,4 +87,5 @@ void checkram_loadprops()
 void vendor_load_properties()
 {
     checkram_loadprops();
+    override_sn_props();
 }
